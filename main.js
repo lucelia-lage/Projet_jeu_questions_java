@@ -16,27 +16,27 @@ const prompt = require("prompt-sync")();
 let tab = [
     {
         question: "Quelle était la monnaie utilisée dans la cité phocéenne de Massilia durant l’Antiquité ?",
-        answer: ["A- Le denier", "B- La drachme massaliote", "C- L’obole", "C- L’as romain"],
+        answer: ["A- Le denier", "B- La drachme massaliote", "C- L’obole", "D- L’as romain"],
         goodAnswer: "B" //"La drachme massaliote"
     },
     {
         question: "Quel roi de France a ordonné la construction du Fort Saint-Nicolas pour surveiller Marseille ?",
-        answer: ["A- Louis XIII", "B- François Ier", "C- Henri IV", "C- Louis XIV"],
+        answer: ["A- Louis XIII", "B- François Ier", "C- Henri IV", "D- Louis XIV"],
         goodAnswer: "A" //"Louis XIV"
     },
     {
         question: "Quel événement historique a entraîné l’exécution du maire de Marseille, Jean-Baptiste Estelle, en 1794 ?",
-        answer: ["A- La révolte des Tuiles", "B- L’expédition de Bonaparte en Égypte", "C- La Terreur sous la Révolution française", "4- La guerre de la Ligue du Midi"],
+        answer: ["A- La révolte des Tuiles", "B- L’expédition de Bonaparte en Égypte", "C- La Terreur sous la Révolution française", "D- La guerre de la Ligue du Midi"],
         goodAnswer: "C" //"La Terreur sous la Révolution française"
     },
     {
         question: "Quel écrivain du XIXe siècle, né à Marseille, est l’auteur du roman Le Comte de Monte-Cristo ?",
-        answer: ["A- Stendhal", "B- Honoré de Balzac", "C- Alexandre Dumas", "C- Alphonse Daudet"],
+        answer: ["A- Stendhal", "B- Honoré de Balzac", "C- Alexandre Dumas", "D- Alphonse Daudet"],
         goodAnswer: "C" // "Alexandre Dumas"
     },
     {
         question: "Quel célèbre acteur marseillais a incarné Marius dans le film de 1931 adapté de l’œuvre de Marcel Pagnol ?",
-        answer: ["A- Raimu", "B- Pierre Fresnay", "C- Fernandel", "C- Jules Muraire"],
+        answer: ["A- Raimu", "B- Pierre Fresnay", "C- Fernandel", "D- Jules Muraire"],
         goodAnswer: "B" //"Pierre Fresnay"
     },
 ]
