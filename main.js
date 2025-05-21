@@ -1,11 +1,11 @@
 const prompt = require("prompt-sync")();
 
-//jeu de quizz 
+//jeu de quiz
 //Afficher chaque question à l'utilisateur, suivi des options de réponse.
 // Attendre l'entrée de l'utilisateur pour sélectionner sa réponse.
 // Valider la réponse de l'utilisateur et afficher un message approprié (correct/incorrect) 
 // Attribuer un point au joueur pour chaque réponse correcte.
-// Calculer et afficher le score final du joueur à la fin du quizz.
+// Calculer et afficher le score final du joueur à la fin du quiz.
 //Guider l'utilisateur tout au long du jeu avec des messages informatifs et des invitations à répondre.
 //Gérer les erreurs d'entrée utilisateur, par exemple, si l'utilisateur entre un choix incorrect ou
 // une réponse non valide.
@@ -51,7 +51,7 @@ function falseResponse(trueResponse) {
     }
     return false
 }
-console.log("Hey, je t'invite à un quizz sur Marseille. La consigne est très simple: il suffit d'entrer la lettre correspondant à ta réponse. C'est parti!");
+console.log("Hey, je t'invite à un quiz sur Marseille. La consigne est très simple: il suffit d'entrer la lettre correspondant à ta réponse. C'est parti!");
 
 //parcours les questions
 for (let i = 0; i < tab.length; i++) {
@@ -76,8 +76,8 @@ for (let i = 0; i < tab.length; i++) {
     }
 }
 
-console.log("Ton score total est de " + points + " Bravoo!");
-console.log("Quizz terminé, plié, bye bye, camarade!");
+console.log("Ton score total est de " + points + " Bravo !");
+console.log("Quiz terminé, plié, bye bye, camarade !");
 
 
 
